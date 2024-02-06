@@ -1,5 +1,6 @@
 public class Car {
 
+	//Cвойства
 	private String carBrand;
 	private String model;
 
