@@ -7,7 +7,7 @@ public class Main {
 
 
 
-		Parrot.sayName();                    //попытка обратится к non-static методу без экземпляра
+		//Parrot.sayName();                    //попытка обратится к non-static методу без экземпляра
 
 		Parrot kesha = new Parrot("Кеша");
 		kesha.sayName();

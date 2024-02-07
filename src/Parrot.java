@@ -16,6 +16,7 @@ public class Parrot {
 	}
 
 	public void sayName() {
+		Parrot.say();
 		System.out.println("Меня зовут " + this.name + ". Вид: " + Parrot.TYPE);   //static поле из non-static метода
 	}
 
