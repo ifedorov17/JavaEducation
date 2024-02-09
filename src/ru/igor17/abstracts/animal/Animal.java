@@ -4,9 +4,7 @@ public abstract class Animal {
 
 	private String name;
 
-	public void voice() {
-		System.out.println("Голос не определен!");
-	}
+	public abstract void voice();
 
 }
 
